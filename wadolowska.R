@@ -1,16 +1,9 @@
-install.packages("ggplot2")
-install.packages("fitdistrplus")
+# install.packages("ggplot2")
+# install.packages("fitdistrplus")
 
 
 library(ggplot2)
 library(fitdistrplus)
-
-# Ustawienie lokalizacij konsoli
-install.packages("rstudioapi")
-setwd(dirname(rstudioapi::getSourceEditorContext()$path))
-getwd()
-
-
 
 #-----------------------------------------
 # Zad 1
